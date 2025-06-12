@@ -20,10 +20,10 @@
     
 
 
-/* La je vais mettre mes couleur que je vais utiliser pour ma page web (CV) pas plus de 4 c'est conseiller la pour un sv je vais en mettre 2 on verra si sa change par la suite , je crée aussi se qu'on appelle des variations avec les 2 ( -- ) pour éviter de mettre le code couleur a chaque fois
+/* La je vais mettre mes couleur que je vais utiliser pour ma page web (CV) pas plus de 4 c'est conseiller la pour un sv je vais en mettre 2 on verra si sa change par la suite , je crée aussi se qu'on appelle des variations avec les 2 ( -- ) pour éviter de mettre le code couleur a chaque fois */
 
-        --couleur-jsp-jsp: color;
-        --couleur-jsp-jsp2: */
+        --couleur-header: #eecf6d ;
+        --couleur-aside: #8b6220 ;
 
 }
     
@@ -38,8 +38,9 @@ body{
 }
 
 aside{
-    background-color: blue;
+    background-color: var(--couleur-aside);
     width: 22%;
+    height: 135vh;
     padding: 20px;
 }
 
@@ -60,18 +61,22 @@ header{
 
 #name{
 
-    width: 100vw;
-    background-color: darkgreen;
+    width: 78vw;
+    background-color: var(--couleur-header);
     height: 20vh;
     padding: 20px;
 
     font-size: 55px;
-
+    
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #info{
     width: 100%;
-    color: rgb(189, 192, 33);
+    color: rgb(252, 252, 252);
     
     
    
@@ -98,7 +103,7 @@ h1{
 }
 
     p{
-        color: rgb(169, 204, 12);
+        color: rgb(6, 7, 0);
         font-family: text;
     
 
